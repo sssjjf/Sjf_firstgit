@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+            <shape
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shape="oval">
+                //边框角度
+                <corners android:radius="10dip" />
+                //外边框颜色
+                <solid android:color="@color/colorAccent" />
+                <size android:width="65dp" android:height="65dp"/>
+            </shape>
+        </item>
+</layer-list>
